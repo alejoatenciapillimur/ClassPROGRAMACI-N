@@ -1,0 +1,64 @@
+body {
+
+    background-color: aquamarine;
+
+}
+
+strong {
+
+color:chocolate
+
+}
+
+b {
+
+color:brown
+
+}
+
+.bold {
+
+/*Define el estilo de la fuente y el color verde*/
+font-style: italic;
+color: green;
+
+}
+
+.dropdowmenu ul, .dropdowmenu li {
+
+    margin: 0;
+    padding: 0;
+    
+    }
+    .dropdowmenu ul {
+    
+    list-style: none;
+    width: auto;
+    
+    }
+    .dropdowmenu li {
+    
+    float: left;
+    position: relative;
+    width: auto;
+    
+    }
+    .dropdowmenu a {
+    
+    background-color: brown;
+    color: cadetblue;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25 ease;
+    transition: all .25 ease;
+    
+    }
+    .dropdowmenu li:hover a {
+        background-color: chocolate;
+    }

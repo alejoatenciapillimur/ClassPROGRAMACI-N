@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    color: red;
+}
+
+strong {
+
+color: blue;
+
+}
+
+b {
+color: green;
+}
+
+.bold {
+    /* Define el estilo de la fuente y el color verde */
+    font-style: italic;
+    color: green;
+}
